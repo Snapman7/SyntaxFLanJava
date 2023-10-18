@@ -25,14 +25,14 @@ public class main {
         FLanguageParser parser = new FLanguageParser(tokens);
         ParseTree tree = parser.program();
 
-        printTree(tree, 0);
+        print(tree, 0);
         writer.close();
     }
-    public static void printTree(ParseTree tree, int indent) {
-        for (int i = 0; i < indent - 1; i++) {
+    public static void print(ParseTree tree, int height) {
+        for (int i = 0; i < height - 1; i++) {
             writer.print("| ");
         }
-        for (int i = Math.max(indent - 1,0); i < indent; i++) {
+        for (int i = Math.max(height - 1,0); i < height; i++) {
             writer.print("|-");
         }
         System.out.print(tree.getClass().getSimpleName());
@@ -43,7 +43,7 @@ public class main {
             writer.println();
         }
         for (int i = 0; i < tree.getChildCount(); i++) {
-            printTree(tree.getChild(i), indent + 1);
+            print(tree.getChild(i), height + 1);
         }
     }
 }
