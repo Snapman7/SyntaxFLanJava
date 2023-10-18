@@ -1,0 +1,6 @@
+(func fibonacci (n)
+  (cond
+    (less n 2) n
+    (plus
+      (fibonacci (minus n 1))
+      (fibonacci (minus n 2)))))

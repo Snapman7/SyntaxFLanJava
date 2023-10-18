@@ -1,0 +1,2 @@
+(func isPalindrome (lst)
+  (equal lst (reverse lst)))
