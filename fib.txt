@@ -1,89 +1,89 @@
-
-|-
-| |-
-| | |-: (
-| | |-
-| | | |-
-| | | | |-: func
-| | |-
-| | | |-
-| | | | |-: fibonacci
-| | |-
-| | | |-
-| | | | |-: (
-| | | | |-
-| | | | | |-
-| | | | | | |-: n
-| | | | |-: )
-| | |-
-| | | |-
-| | | | |-: (
-| | | | |-
-| | | | | |-
-| | | | | | |-: cond
-| | | | |-
-| | | | | |-
-| | | | | | |-: (
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: less
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: n
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: 2
-| | | | | | |-: )
-| | | | |-
-| | | | | |-
-| | | | | | |-: n
-| | | | |-
-| | | | | |-
-| | | | | | |-: (
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: plus
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: (
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: fibonacci
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: (
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: minus
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: n
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: 1
-| | | | | | | | | | |-: )
-| | | | | | | | |-: )
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: (
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: fibonacci
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: (
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: minus
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: n
-| | | | | | | | | | |-
-| | | | | | | | | | | |-
-| | | | | | | | | | | | |-: 2
-| | | | | | | | | | |-: )
-| | | | | | | | |-: )
-| | | | | | |-: )
-| | | | |-: )
-| | |-: )
-|-: <EOF>
+ProgramContext
+|-ElementContext
+| |-ListContext
+| | |-TerminalNodeImpl: (
+| | |-ElementContext
+| | | |-AtomContext
+| | | | |-TerminalNodeImpl: func
+| | |-ElementContext
+| | | |-AtomContext
+| | | | |-TerminalNodeImpl: fibonacci
+| | |-ElementContext
+| | | |-ListContext
+| | | | |-TerminalNodeImpl: (
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: n
+| | | | |-TerminalNodeImpl: )
+| | |-ElementContext
+| | | |-ListContext
+| | | | |-TerminalNodeImpl: (
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: cond
+| | | | |-ElementContext
+| | | | | |-ListContext
+| | | | | | |-TerminalNodeImpl: (
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: less
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: n
+| | | | | | |-ElementContext
+| | | | | | | |-LiteralContext
+| | | | | | | | |-TerminalNodeImpl: 2
+| | | | | | |-TerminalNodeImpl: )
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: n
+| | | | |-ElementContext
+| | | | | |-ListContext
+| | | | | | |-TerminalNodeImpl: (
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: plus
+| | | | | | |-ElementContext
+| | | | | | | |-ListContext
+| | | | | | | | |-TerminalNodeImpl: (
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-AtomContext
+| | | | | | | | | | |-TerminalNodeImpl: fibonacci
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-ListContext
+| | | | | | | | | | |-TerminalNodeImpl: (
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-AtomContext
+| | | | | | | | | | | | |-TerminalNodeImpl: minus
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-AtomContext
+| | | | | | | | | | | | |-TerminalNodeImpl: n
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-LiteralContext
+| | | | | | | | | | | | |-TerminalNodeImpl: 1
+| | | | | | | | | | |-TerminalNodeImpl: )
+| | | | | | | | |-TerminalNodeImpl: )
+| | | | | | |-ElementContext
+| | | | | | | |-ListContext
+| | | | | | | | |-TerminalNodeImpl: (
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-AtomContext
+| | | | | | | | | | |-TerminalNodeImpl: fibonacci
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-ListContext
+| | | | | | | | | | |-TerminalNodeImpl: (
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-AtomContext
+| | | | | | | | | | | | |-TerminalNodeImpl: minus
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-AtomContext
+| | | | | | | | | | | | |-TerminalNodeImpl: n
+| | | | | | | | | | |-ElementContext
+| | | | | | | | | | | |-LiteralContext
+| | | | | | | | | | | | |-TerminalNodeImpl: 2
+| | | | | | | | | | |-TerminalNodeImpl: )
+| | | | | | | | |-TerminalNodeImpl: )
+| | | | | | |-TerminalNodeImpl: )
+| | | | |-TerminalNodeImpl: )
+| | |-TerminalNodeImpl: )
+|-TerminalNodeImpl: <EOF>

@@ -1,68 +1,68 @@
-
-|-
-| |-
-| | |-: (
-| | |-
-| | | |-
-| | | | |-: func
-| | |-
-| | | |-
-| | | | |-: gcd
-| | |-
-| | | |-
-| | | | |-: (
-| | | | |-
-| | | | | |-
-| | | | | | |-: a
-| | | | |-
-| | | | | |-
-| | | | | | |-: b
-| | | | |-: )
-| | |-
-| | | |-
-| | | | |-: (
-| | | | |-
-| | | | | |-
-| | | | | | |-: cond
-| | | | |-
-| | | | | |-
-| | | | | | |-: (
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: equal
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: b
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: 0
-| | | | | | |-: )
-| | | | |-
-| | | | | |-
-| | | | | | |-: a
-| | | | |-
-| | | | | |-
-| | | | | | |-: (
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: gcd
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: b
-| | | | | | |-
-| | | | | | | |-
-| | | | | | | | |-: (
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: mod
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: a
-| | | | | | | | |-
-| | | | | | | | | |-
-| | | | | | | | | | |-: b
-| | | | | | | | |-: )
-| | | | | | |-: )
-| | | | |-: )
-| | |-: )
-|-: <EOF>
+ProgramContext
+|-ElementContext
+| |-ListContext
+| | |-TerminalNodeImpl: (
+| | |-ElementContext
+| | | |-AtomContext
+| | | | |-TerminalNodeImpl: func
+| | |-ElementContext
+| | | |-AtomContext
+| | | | |-TerminalNodeImpl: gcd
+| | |-ElementContext
+| | | |-ListContext
+| | | | |-TerminalNodeImpl: (
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: a
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: b
+| | | | |-TerminalNodeImpl: )
+| | |-ElementContext
+| | | |-ListContext
+| | | | |-TerminalNodeImpl: (
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: cond
+| | | | |-ElementContext
+| | | | | |-ListContext
+| | | | | | |-TerminalNodeImpl: (
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: equal
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: b
+| | | | | | |-ElementContext
+| | | | | | | |-LiteralContext
+| | | | | | | | |-TerminalNodeImpl: 0
+| | | | | | |-TerminalNodeImpl: )
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: a
+| | | | |-ElementContext
+| | | | | |-ListContext
+| | | | | | |-TerminalNodeImpl: (
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: gcd
+| | | | | | |-ElementContext
+| | | | | | | |-AtomContext
+| | | | | | | | |-TerminalNodeImpl: b
+| | | | | | |-ElementContext
+| | | | | | | |-ListContext
+| | | | | | | | |-TerminalNodeImpl: (
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-AtomContext
+| | | | | | | | | | |-TerminalNodeImpl: mod
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-AtomContext
+| | | | | | | | | | |-TerminalNodeImpl: a
+| | | | | | | | |-ElementContext
+| | | | | | | | | |-AtomContext
+| | | | | | | | | | |-TerminalNodeImpl: b
+| | | | | | | | |-TerminalNodeImpl: )
+| | | | | | |-TerminalNodeImpl: )
+| | | | |-TerminalNodeImpl: )
+| | |-TerminalNodeImpl: )
+|-TerminalNodeImpl: <EOF>
