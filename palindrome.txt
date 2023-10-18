@@ -1,39 +1,39 @@
 ProgramContext
 |-ElementContext
-| |-ListContext
-| | |-TerminalNodeImpl: (
-| | |-ElementContext
-| | | |-AtomContext
-| | | | |-TerminalNodeImpl: func
-| | |-ElementContext
-| | | |-AtomContext
-| | | | |-TerminalNodeImpl: isPalindrome
-| | |-ElementContext
-| | | |-ListContext
-| | | | |-TerminalNodeImpl: (
-| | | | |-ElementContext
-| | | | | |-AtomContext
-| | | | | | |-TerminalNodeImpl: lst
-| | | | |-TerminalNodeImpl: )
-| | |-ElementContext
-| | | |-ListContext
-| | | | |-TerminalNodeImpl: (
-| | | | |-ElementContext
-| | | | | |-AtomContext
-| | | | | | |-TerminalNodeImpl: equal
-| | | | |-ElementContext
-| | | | | |-AtomContext
-| | | | | | |-TerminalNodeImpl: lst
-| | | | |-ElementContext
-| | | | | |-ListContext
-| | | | | | |-TerminalNodeImpl: (
-| | | | | | |-ElementContext
-| | | | | | | |-AtomContext
-| | | | | | | | |-TerminalNodeImpl: reverse
-| | | | | | |-ElementContext
-| | | | | | | |-AtomContext
-| | | | | | | | |-TerminalNodeImpl: lst
-| | | | | | |-TerminalNodeImpl: )
-| | | | |-TerminalNodeImpl: )
-| | |-TerminalNodeImpl: )
+- |-ListContext
+- - |-TerminalNodeImpl: (
+- - |-ElementContext
+- - - |-AtomContext
+- - - - |-TerminalNodeImpl: func
+- - |-ElementContext
+- - - |-AtomContext
+- - - - |-TerminalNodeImpl: isPalindrome
+- - |-ElementContext
+- - - |-ListContext
+- - - - |-TerminalNodeImpl: (
+- - - - |-ElementContext
+- - - - - |-AtomContext
+- - - - - - |-TerminalNodeImpl: lst
+- - - - |-TerminalNodeImpl: )
+- - |-ElementContext
+- - - |-ListContext
+- - - - |-TerminalNodeImpl: (
+- - - - |-ElementContext
+- - - - - |-AtomContext
+- - - - - - |-TerminalNodeImpl: equal
+- - - - |-ElementContext
+- - - - - |-AtomContext
+- - - - - - |-TerminalNodeImpl: lst
+- - - - |-ElementContext
+- - - - - |-ListContext
+- - - - - - |-TerminalNodeImpl: (
+- - - - - - |-ElementContext
+- - - - - - - |-AtomContext
+- - - - - - - - |-TerminalNodeImpl: reverse
+- - - - - - |-ElementContext
+- - - - - - - |-AtomContext
+- - - - - - - - |-TerminalNodeImpl: lst
+- - - - - - |-TerminalNodeImpl: )
+- - - - |-TerminalNodeImpl: )
+- - |-TerminalNodeImpl: )
 |-TerminalNodeImpl: <EOF>

@@ -30,7 +30,7 @@ public class main {
     }
     public static void print(ParseTree tree, int height) {
         for (int i = 0; i < height - 1; i++) {
-            writer.print("| ");
+            writer.print("- ");
         }
         for (int i = Math.max(height - 1,0); i < height; i++) {
             writer.print("|-");
