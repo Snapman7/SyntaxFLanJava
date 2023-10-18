@@ -1,28 +1,28 @@
-
-|-
-| |-
-| | |-: (
-| | |-
-| | | |-
-| | | | |-: times
-| | |-
-| | | |-
-| | | | |-: (
-| | | | |-
-| | | | | |-
-| | | | | | |-: plus
-| | | | |-
-| | | | | |-
-| | | | | | |-: +3
-| | | | |-
-| | | | | |-
-| | | | | | |-: +4
-| | | | |-
-| | | | | |-
-| | | | | | |-: 01
-| | | | |-: )
-| | |-
-| | | |-
-| | | | |-: 5
-| | |-: )
-|-: <EOF>
+ProgramContext
+|-ElementContext
+| |-ListContext
+| | |-TerminalNodeImpl: (
+| | |-ElementContext
+| | | |-AtomContext
+| | | | |-TerminalNodeImpl: times
+| | |-ElementContext
+| | | |-ListContext
+| | | | |-TerminalNodeImpl: (
+| | | | |-ElementContext
+| | | | | |-AtomContext
+| | | | | | |-TerminalNodeImpl: plus
+| | | | |-ElementContext
+| | | | | |-LiteralContext
+| | | | | | |-TerminalNodeImpl: +3
+| | | | |-ElementContext
+| | | | | |-LiteralContext
+| | | | | | |-TerminalNodeImpl: +4
+| | | | |-ElementContext
+| | | | | |-LiteralContext
+| | | | | | |-TerminalNodeImpl: 01
+| | | | |-TerminalNodeImpl: )
+| | |-ElementContext
+| | | |-LiteralContext
+| | | | |-TerminalNodeImpl: 5
+| | |-TerminalNodeImpl: )
+|-TerminalNodeImpl: <EOF>

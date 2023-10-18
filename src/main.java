@@ -1,6 +1,7 @@
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.RecognitionException;
 import org.antlr.v4.runtime.tree.ParseTree;
 
 import java.io.File;
@@ -24,7 +25,6 @@ public class main {
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         FLanguageParser parser = new FLanguageParser(tokens);
         ParseTree tree = parser.program();
-
         print(tree, 0);
         writer.close();
     }
@@ -35,7 +35,7 @@ public class main {
         for (int i = Math.max(height - 1,0); i < height; i++) {
             writer.print("|-");
         }
-        System.out.print(tree.getClass().getSimpleName());
+        writer.print(tree.getClass().getSimpleName());
         if(tree.getChildCount() == 0){
             writer.println(": " + tree.getText());
         }
